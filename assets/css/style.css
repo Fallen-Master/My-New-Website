@@ -1,0 +1,157 @@
+* { 
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    display:block;
+    background-color: rgb(40, 129, 102);
+    border-bottom: .5rem solid rgb(237, 181, 156);
+    position: fixed;
+    top:0;
+    right:0;
+    left: 0;    
+}
+
+.text-right {
+    text-align: right;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(230, 225, 225);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav ul > li{
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+
+#h1 {
+font-size: 30px;
+padding: 80px;
+color: rgb(91, 86, 86);
+font-weight: bolder;
+text-align: center;
+padding-bottom: 10px;
+}
+.outer-box{
+    border: 5px solid rgb(112, 99, 99);
+    background-color:  rgb(112, 99, 99);
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box{
+    border:10px solid rgb(237, 181, 156);
+    height: 400px;
+    width: 400px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-inner-box{
+    border:8px solid rgb(40, 129, 102);
+    height: 300px;
+    width: 300px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-inner-inner-box{
+    border:8px solid rgb(237, 181, 156);
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-inner-inner-box p{ 
+    text-align: center;
+    border: 5px solid rgb(89, 85, 85);
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(237, 181, 156);
+}
+
+body { background-color: whitesmoke;}
+
+main {
+    padding-top: 100px;
+}
+
+#contact {
+    background-color: rgb(228, 189, 171);
+    text-align: center;
+    border-top: 5px solid rgb(237, 181, 156);
+    padding-bottom: 20px;
+    padding-top: 50px;
+    
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+ }
+
+ form input[type="name"],
+ form input[ type="email"] {
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom:0;
+    width: 400px;
+ }
+
+ #info{
+    border: 5px solid rgb(184, 137, 115) ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    inline-size: 550px;
+    
+ }
+
+ #latin{
+    text-align: center;
+    font-size: x-large;
+ }
+
+ form input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(112, 99, 99);
+    color: white;
+    border: 3px solid rgb(75, 69, 69);
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+ }
+
+ footer{
+    background-color: rgb(40, 129, 102);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
